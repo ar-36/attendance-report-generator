@@ -44,8 +44,7 @@ It uses **OpenPyXL** for Excel formatting and **Pandas + SQLAlchemy** for data r
   pip install -r requirements.txt
 ```
 
-3. **Configure database credentials**.
-Edit the following variables in generate_report.py:
+3. **Configure database credentials**
 ```
   DB_HOST = "your-host"
   DB_USER = "your-username"
