@@ -65,12 +65,19 @@ It uses **OpenPyXL** for Excel formatting and **Pandas + SQLAlchemy** for data r
 ---
 
 ## 🧾 Example Output
-After running the scripts, you’ll get an Excel file named like:
 ```
-Attendance_EmployeeName_Jan01-Oct31_2025.xlsx
+⏳ Initiating attendance report for employee ID: 131...
+📋 Attendance report exported as Attendance_EmployeeName_Jan01-Oct31_2025.xlsx
+📊 Attendance Summary:
+Performance         : 48.07
+Days Present        : 201.0/209
+Late Arrivals       : 28
+Public Holidays     : 9
+Work From Home      : 22.0
+Leaves Not Applied  : 1
 ```
-It includes:
 
+It includes:
 - Monthly attendance breakdown
 - Performance summary widgets
 - Automatically formatted color-coded rows
