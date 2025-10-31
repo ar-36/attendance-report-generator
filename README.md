@@ -3,7 +3,7 @@
 This project automates the creation of **styled Excel attendance reports** from a **MySQL database**.  
 It uses **OpenPyXL** for Excel formatting and **Pandas + SQLAlchemy** for data retrieval and transformation.
 
----
+
 
 ## 📦 Features
 
@@ -19,7 +19,7 @@ It uses **OpenPyXL** for Excel formatting and **Pandas + SQLAlchemy** for data r
   - Leaves not applied
 - 🧠 Configurable color themes and logic via `utils.py`
 
----
+
 
 ## 🧰 Tech Stack
 
@@ -29,7 +29,7 @@ It uses **OpenPyXL** for Excel formatting and **Pandas + SQLAlchemy** for data r
 - **OpenPyXL**
 - **MySQL (with PyMySQL driver)**
 
----
+
 
 ## ⚙️ Setup
 
@@ -62,7 +62,7 @@ It uses **OpenPyXL** for Excel formatting and **Pandas + SQLAlchemy** for data r
   python generate_report.py
 ```
 
----
+
 
 ## 🧾 Example Output
 ```
