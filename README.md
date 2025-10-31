@@ -40,21 +40,25 @@ It uses **OpenPyXL** for Excel formatting and **Pandas + SQLAlchemy** for data r
 ```
 
 2. **Install dependencies**
-  ```bash
+```
   pip install -r requirements.txt
+```
 
 3. **Configure database credentials**
 Edit the following variables in generate_report.py:
-  ```bash
+```
   DB_HOST = "your-host"
   DB_USER = "your-username"
   DB_PASS = "your-password"
   DB_NAME = "your-database"
+```
 
 4. **Run template generator**
-  ```bash
+```
   python create_template.py
+```
 
 5. **Generate attendance report**
-  ```bash
+```
   python generate_report.py
+```
