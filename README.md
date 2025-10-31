@@ -61,3 +61,16 @@ It uses **OpenPyXL** for Excel formatting and **Pandas + SQLAlchemy** for data r
 ```
   python generate_report.py
 ```
+
+---
+
+## 🧾 Example Output
+After running the scripts, you’ll get an Excel file named like:
+```
+Attendance_EmployeeName_Jan01-Oct31_2025.xlsx
+```
+It includes:
+
+- Monthly attendance breakdown
+- Performance summary widgets
+- Automatically formatted color-coded rows
