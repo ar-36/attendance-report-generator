@@ -34,9 +34,10 @@ It uses **OpenPyXL** for Excel formatting and **Pandas + SQLAlchemy** for data r
 ## ⚙️ Setup
 
 1. **Clone the repository**
-  ```bash
+```
   git clone https://github.com/your-username/attendance-report-generator.git
   cd attendance-report-generator
+```
 
 2. **Install dependencies**
   ```bash
@@ -54,6 +55,6 @@ Edit the following variables in generate_report.py:
   ```bash
   python create_template.py
 
-4. **Generate attendance report**
+5. **Generate attendance report**
   ```bash
   python generate_report.py
